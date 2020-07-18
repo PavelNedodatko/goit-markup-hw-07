@@ -1,3 +1,18 @@
+@import './utils/placeholders';
 @import './utils/variables';
+@import './utils/mixins';
+
 @import './base/normalize';
-@import './components/page-header/page-header';
+
+@import './components/index/header/index-header';
+@import './components/index/main/hero';
+@import './components/index/main/advantages';
+@import './components/index/main/work';
+@import './components/index/main/team';
+@import './components/index/main/clients';
+@import './components/index/footer/index-footer';
+
+@import './components/portfolio/header/portfolio-header';
+@import './components/portfolio/main/radio-buttons';
+@import './components/portfolio/main/cards';
+@import './components/portfolio/footer/portfolio-footer';

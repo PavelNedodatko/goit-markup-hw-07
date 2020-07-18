@@ -20,5 +20,5 @@
         "../sass/components/portfolio/footer/_portfolio-footer.scss"
     ],
     "names": [],
-    "file": "main.css"
+    "file": "main.min.css"
 }
