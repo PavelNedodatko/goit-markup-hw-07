@@ -215,7 +215,7 @@ color: var(--accent-color);
 /* Герой */
 .hero {
   text-align: center;
-  mawidth: 1600px;
+  width: 1600px;
   height: 600px;
   margin-left: auto;
   margin-right: auto;
