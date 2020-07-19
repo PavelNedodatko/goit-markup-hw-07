@@ -1,18 +1,18 @@
-@import './base/normalize';
+@import './utils/normalize';
 
 @import './utils/placeholders';
 @import './utils/variables';
 @import './utils/mixins';
+@import './utils/list';
 
-@import './components/index/header/index-header';
+@import './components/common/header/header';
+@import './components/common/footer/footer';
+
 @import './components/index/main/hero';
 @import './components/index/main/advantages';
 @import './components/index/main/work';
 @import './components/index/main/team';
 @import './components/index/main/clients';
-@import './components/index/footer/index-footer';
 
-@import './components/portfolio/header/portfolio-header';
 @import './components/portfolio/main/radio-buttons';
 @import './components/portfolio/main/cards';
-@import './components/portfolio/footer/portfolio-footer';

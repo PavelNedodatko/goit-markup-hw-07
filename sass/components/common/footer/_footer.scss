@@ -1,0 +1,130 @@
+.adress .map {
+  color: var(--white);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.adress .link {
+  color: var(--conacts-color);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.adress .link:hover,
+.adress .link:focus {
+  color: var(--accent-color);
+}
+.contacts {
+  background-color: var(--dark-grey-footer);
+}
+
+.invitation {
+  color: var(--white);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14x;
+  text-transform: uppercase;
+}
+.signature {
+  color: var(--conacts-color);
+  font-size: 12px;
+  line-height: 2;
+  text-align: center;
+  padding-top: 18px;
+  padding-bottom: 21px;
+}
+.primary-button > .btn-icon {
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+  background-image: url(../img/icon_send.svg);
+  background-size: contain;
+}
+
+.footer-position {
+  display: flex;
+  margin-bottom: 0;
+  margin-right: auto;
+  margin-left: auto;
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.adress-info {
+  margin-top: 45px;
+}
+
+.social-invintation {
+  margin-top: 57px;
+  margin-left: 69px;
+  margin-bottom: 0px;
+}
+
+.social-invintation a {
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-links-footer {
+  margin-top: 2px;
+  display: inline-flex;
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 56px;
+  fill: var(--white);
+}
+
+.social-invintation a:hover,
+.social-invitation a:focus {
+  background-color: var(--accent-color);
+}
+
+.social-links-item-footer {
+  width: 20px;
+  height: 20px;
+  fill: var(--dark-white);
+}
+
+.social-invintation a:hover .social-links-item-footer,
+.social-invitation a:focus .social-links-item-footer {
+  fill: var(--white);
+}
+
+.sign-up {
+  margin-top: 20px;
+  margin-left: auto;
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-input-footer {
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  background-color: var(--dark-grey-footer);
+}
+
+.position-footer-button {
+  margin-top: 84px;
+  margin-left: 12px;
+}
+
+.signature-border {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.signature {
+  margin-bottom: 0px;
+}

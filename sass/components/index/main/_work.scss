@@ -1,0 +1,36 @@
+.work-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 50;
+}
+
+.work-list {
+  display: flex;
+}
+
+.work-list .item {
+  position: relative;
+  width: 370px;
+}
+.work-name {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: var(--white);
+  background-color: var(--dark-grey);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  padding-left: 80px;
+  padding-right: 80px;
+  width: 370px;
+  text-align: center;
+}
