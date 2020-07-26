@@ -525,6 +525,12 @@ textarea {
   width: 270px;
 }
 
+/* @media screen and (min-width: 480px) {
+  .advantages-list .item {
+    width: 480px;
+  }
+} */
+
 .advantages-list .item::before {
   display: block;
   content: '';

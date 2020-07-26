@@ -341,6 +341,40 @@ template {
   display: none;
 }
 
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+}
+
+body {
+  background-color: var(--white);
+  color: var(--primery-text-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+  padding-top: 80px;
+}
+
 .list {
   margin: 0;
   padding: 0;
